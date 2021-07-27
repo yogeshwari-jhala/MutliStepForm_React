@@ -1,10 +1,9 @@
 import './App.css';
-import UserForm from './components/UserForm';
-
+import Form from './components/NewForm/Form.jsx';
 function App() {
   return (
    <div>
-    <UserForm/>
+    <Form/>
    </div>
   );
 }
